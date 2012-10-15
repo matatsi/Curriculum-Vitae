@@ -1,0 +1,127 @@
+#options input{
+   border-top: 1px solid pink;
+   background: pink;
+   background: -webkit-gradient(linear, left top, left bottom, from(pink), to(#FF3399));
+   background: -webkit-linear-gradient(top, pink, #FF3399);
+   background: -moz-linear-gradient(top, pink, #FF3399);
+   background: -ms-linear-gradient(top, pink, #FF3399);
+   background: -o-linear-gradient(top, pink, #FF3399);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   box-shadow: rgba(0,0,0,5) 0 1px 0;
+   text-shadow: rgba(0,0,0,.5) 0 1px 0;
+   color: black;
+   font-weight:bold;
+}
+#options p{
+	color: black;
+	font-family:"Arial";
+	font-family:"italics";
+	font-size:20px;
+	text-align: center;
+    clear:both;
+}
+#footer{
+display: none;
+
+}
+
+#options{
+	color: black;
+	font-family:"Arial";
+	text-align: center;
+    clear:both;
+	border-style: ridge;
+	border-color:pink;
+	border-width:20px;
+	height:100%;
+}
+#options img{
+	
+	visibility:"hidden";
+}
+
+#col1 ul li{
+list-style-type:none;
+}
+#col1{
+
+margin-top: 40px;
+border-top-style:solid;
+border-right-style:solid;
+border-width:2px;
+width:300px;
+text-align:right;
+padding-right:5px;
+}
+#pic1 img{
+  margin-top:-25px;
+  margin-right:200px;
+  z-index:1000px;
+}
+#pic2 img{
+  
+  width:150px;
+  height:150px;
+  margin-top:-25px;
+  margin-left:900px;
+  z-index:1000px;
+}
+#h1{
+	font-style:bold;
+	font-family-size:20px;
+}
+#h2{
+	font-style:bold;
+}
+#col2{
+	position: relative;
+	right:-300px;
+	top:-890px;
+
+}
+#col2 ul li{
+	list-style-type:none;
+}
+#work ul li{
+	list-style-type:none;
+	}
+#work {
+	position:relative;
+	top:-865px;
+	right:-300px;
+}
+#edu ul li{
+	list-style-type:none;
+}
+
+#edu {
+	position:relative;
+	top:-810px;
+	right:-300px;
+	
+
+}
+#Pskills ul li{
+	list-style-type:none;
+}
+#Pskills{
+	position:relative;
+	top:-745px;
+	right:-300px;
+	
+}
+#Pskills li table,th,td{
+    list-style-type:none;
+	border:1px solid black;
+}
+#e_options{
+	overflow-x:hidden;
+	overflow-y:hidden;
+   
+	
+}

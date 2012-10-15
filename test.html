@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<title>curriculum vitae</title>
+	
+	
+	<link id="stylesheet" href="style.css" rel="stylesheet" type="text/css" />
+	
+	<script>
+		function doFormal()
+		{
+			document.getElementById('stylesheet').href = 'formal.css';
+			document.getElementById('options').style.display = 'none';
+			document.getElementById('ret_options').style.display = 'block';
+			document.getElementById('f_options').style.display = 'none';
+			document.getElementById('e_options').style.display = 'none';
+		}
+		
+		function doFunky()
+		{
+			document.getElementById('stylesheet').href = 'funky.css';
+			document.getElementById('options').style.display = 'none';
+			document.getElementById('ret_options').style.display = 'none';
+			document.getElementById('f_options').style.display = 'block';
+			document.getElementById('e_options').style.display = 'none';
+		}
+		
+		function doEuropass()
+		{
+			document.getElementById('stylesheet').href = 'europass.css';
+			document.getElementById('options').style.display = 'none';
+			document.getElementById('ret_options').style.display = 'none';
+			document.getElementById('f_options').style.display = 'none';
+			document.getElementById('e_options').style.display = 'block';
+		}
+		function doOptions()
+		{
+		    document.getElementById('stylesheet').href = 'style.css';
+		    document.getElementById('options').style.display = 'block';
+			document.getElementById('ret_options').style.display = 'none';
+			document.getElementById('f_options').style.display = 'none';
+			document.getElementById('e_options').style.display = 'none';
+		}
+	</script>
+	</head>	
+	
+<body>
+	<div id="options">
+		<img src="flower.jpg" alt="picture" />
+		<h1>Curriculm Vitae</h1>
+		<p> Choose the CV you want </p>
+		
+		
+		<INPUT TYPE="button" VALUE="Formal CV" onclick="doFormal();">
+		<INPUT TYPE="button" VALUE="Funky" onclick="doFunky();">
+		<INPUT TYPE="button" VALUE="Europass" onclick="doEuropass();">
+	</div>
+	
+	<div id="f_options">
+	<input type="button" value="Change Layout" onclick="doOptions();">
+	
+	<div id="about">
+	
+	<h2>My own <small>CV</small></h2>
+	    <p>My name is<small>Maria Tatsi</small> and I am Computer Engineer..</p>
+		
+		<img src="computer.jpg" alt="picture" />
+	</div>
+	<div id="stoixeia">
+	<h2>education</h2>
+	</div>
+	<div id="Education">
+	<p>At University of Thessaly: Computer Engineering<br>
+	<small>Volos,2007</small><br>
+	<img src="volos.jpg" alt="picture" /></p>
+	</div>
+	<div id="s1">
+	<img src="technical.png" alt="picture" /></p>
+	</div>
+	<div id="s2">
+	<li><small>ExPeRiEnCe</small></li>
+	<li>I have NO experience</li>
+	<li>So,I would be happy..if I could gain!!!</li> 
+	</div>
+	<div id="P1">
+	
+	
+	<h2><img src="phone.jpg" alt="picture" /><small>Contact me</small></h2>
+	<li><a href="mailto:matatsi@address.com">matatsi@uth.gr</a></small></li>
+	<li>Phone Number:6976893234</li>
+	</div>
+	<div id="knowledge">
+	<h2><img src="books.jpg" alt="picture" /><small>Knowledge</small></h2>
+	<li><img src="flag1.png" alt="picture" /> I speak English</li><br>
+	<li><img src="flag2.png" alt="picture" /> Ich spreche Deutsch</li><br>
+	<li><img src="flag3.png" alt="picture" /> Io parlo Italiano</li>
+	</div>
+	</div>
+	
+	<div id="e_options">
+	<input type="button" value="Change Layout" onclick="doOptions();">
+	<div id="col1">
+	<div id="pic1">
+	<img src="europass.jpg" alt="picture" />
+	</div>
+	<div id="pic2">
+	<img src="marita.jpg" alt="picture" />
+	</div>
+	<ul>
+	<li><h1>Europass<br>
+	Curriculum Vitae</h1></li>
+	<li><h2>Personal Information</h2></li>
+	
+		<li>First name(s)/Surnames()</li>
+		<li>Address</li>
+		<li>Telephone(s)</li>
+		<li>Fax</li>
+		<li>E-mail(s)</li>
+		<li>Nationality</li>
+		<li>Date of birth</li>
+		<li>Gender</li>
+
+	    <li><h2>Desired employment</h2><li>
+	    <li><h2>Work experience</h2></li>
+	    <li>Dates</li>
+		<li>Occupation or position held</li>
+		<li>Main activities and responsibilities</li>
+		<li>Name and address of employer</li>
+		<li>Address</li>
+		<li>Type of business or sector</li>
+		
+	
+	<li><h2>Education and training</h2></li>
+	<li>Dates</li>
+	<li>Title of qualification awarded</li>
+	<li>Name and type of organisation</li>
+	<li>Address</li>
+	<li>Level in national classification</li>
+	
+	
+	
+	<li><h2>Personal skills and competences</h2></li>
+	<li>Mother tongue(s)</li>
+	<li>Other language(s)</li>
+	<li>Self-assessment</li>
+	<li>European level</li>
+	<li>German</li>
+	<li>Italian</li>
+	<li>Sosial skills and competences</li>
+	<li>Computer skills and competences</li>
+	<li>Other skills and competences</li>
+	<li>Driving licence(s)</li>
+	<li>More information</li>
+	</ul>
+		
+	</div>
+	
+<div id="col2">
+	<ul>
+	<li>Maria Tatsi</li>
+	<li>Trikoupi A</li>
+	<li>6976893234</li>
+	<li>-----------</li>
+	<li><a href="mailto:matatsi@address.com">matatsi@uth.gr</a></li>
+	<li>Greek</li>
+	<li>09/06/88</li>
+	<li>Female</li>
+	<li><h2>Software Enginner</h2></li>
+	</ul>
+</div>
+	
+	<div id="work">
+	
+	<ul>
+	
+	<li>Software Developer</li>
+	<li>3/3/2007-2/3/2012</li>
+    <li>............</li>
+    <li>Open Source Developer</li>
+    <li>TCL</li>
+    <li>27 Gain Street, India</li>
+    <li>............</li>
+	
+    </ul>	
+	</div>
+	
+	<div id="edu">
+	<ul>
+	<li>3/9/2001-15/6/2007</li>
+	<li>Computer Engineer</li>
+	<li>University</li>
+	<li>Thessaly,Volos</li>
+	<li>Master</li>
+	</ul>
+	</div>
+	<div id="Pskills">
+	<ul>
+	<li>Greek</li>
+			<li><table>
+				<tr>
+				<th>Understanding</th>
+				<th>Speaking/Listening</th>
+				<th>Writing</th>
+				</tr>
+				<tr>
+				<td>Reading/listening</td>
+				<td>spoken interaction</td>
+				</tr>
+				<tr>
+				<td>A1 Proficient user</td>
+			    <td>C2 Proficient user</td>
+				<td>C1 Proficient user</td>
+				</tr>
+				<tr>
+				<td>A1 Basic user</td>
+				<td>A2 Basic user</td>
+				<td>A1 Basic user</td>
+				</tr>
+			</table></li>
+			
+			<li>I work on the borders between young people</li>
+			<li>C, C++, SQL</li>
+			<li>Financial Seminars,University of Macedonia</li>
+			<li>C category</li>
+			<li><a href="mailto:matatsi@address.com">http://83.212.101.48/</a></li
+			</ul>
+	</div>
+	</div>
+	<div id="ret_options">
+		
+		<input type="button" value="Change Layout" onclick="doOptions();">
+		<div id="Info">
+		<img src="marita.jpg" alt="picture" />
+		<div id="Details">
+		<h2>Personal Details</h2>
+		</div>
+		<div id="Pdetails">
+		<li><small>Maria Tatsi</small></li>
+		<li>Computer Engineer</li>
+		<li>Thessaloniki, Greece</li>
+		<li><a href="mailto:matatsi@address.com">matatsi@uth.gr</a></small></li>
+		<li>Phone Number:6976893234</li>
+		</div>
+    </div> 
+	
+	<div id="Edu">
+	<h2>Education</h2>
+	</div>
+	<div id="Education">
+	
+	<p><small>University of Thessaly:</small>Volos,2007<br>
+	Computer Engineer</p>
+	</div>
+	<div id="Tech">
+	<h2>Technical</h2>
+	</div>
+	<div id="Technical">
+	<li><small>Languages:</small> C++, Java, C, SQL </li>
+	<li><small>Applications:</small> MS Visual Studio, Eclipse</small></li>
+	<li><small>Application Server:</small> JBoss, Tomcat</li>
+	<li><small>Operating Systems:</small> Windows, Unix, Linux</li>
+	<li><small>Database Systems:</small> SQL Server, MySQL</li>
+	</div>
+	<div id="Exp">
+	<h2>Experience</h2>
+	</div>
+	<div id="Experience">
+	<p><small>Computer Company, Software Engineer</small><br>
+	Software Engineer On Company Soft Manager.<br>
+	Duties include developing current release using C   and Java,<br>
+	assisting in design of next release (J2EE)</p>
+	</div>
+	<div id="Know">
+	<h2>Knowledge</h2>
+	</div>
+	<div id="Knowledge">
+	<li><small>English</small>-Lower Cambridge</h1>
+	<li><small>German</small>-Zertifikat Goethe Institut</li>
+	<li><small>Italian</small>-B2(Celi 3)</li>
+	</div>
+	<div id="Ref">
+	<h2>References</h2>
+	</div>
+	<div  id="References">
+	<p><small>Available</small> on request</p>
+	</div>
+		</div>
+	
+<p id="footer">
+		Curriculum Vitae of <name> Maria Tatsi</name>
+		
+	</p>
+</body>
+</html>
+

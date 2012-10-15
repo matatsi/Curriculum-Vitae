@@ -1,0 +1,249 @@
+#ret_options {
+	display: none;
+}
+h1 {
+	color: black;
+	font-family:"Arial";
+	text-align: center;
+    clear:both;
+    margin-top:90px;
+	font-weight:bold;
+}
+
+h1:first-letter{
+	vertical-align:-5px;
+	font-family:"Sans Serif";
+	font-size:80px;
+	color:pink;
+}
+#options input{
+   border-top: 1px solid pink;
+   background: pink;
+   background: -webkit-gradient(linear, left top, left bottom, from(pink), to(#FF3399));
+   background: -webkit-linear-gradient(top, pink, #FF3399);
+   background: -moz-linear-gradient(top, pink, #FF3399);
+   background: -ms-linear-gradient(top, pink, #FF3399);
+   background: -o-linear-gradient(top, pink, #FF3399);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   box-shadow: rgba(0,0,0,5) 0 1px 0;
+   text-shadow: rgba(0,0,0,.5) 0 1px 0;
+   color: black;
+   font-weight:bold;
+}
+#options p{
+	color: black;
+	font-family:"Arial";
+	font-family:"italics";
+	font-size:20px;
+	text-align: center;
+    clear:both;
+}
+
+#options{
+	color: black;
+	font-family:"Arial";
+	text-align: center;
+    clear:both;
+	border-style: ridge;
+	border-color:pink;
+	border-width:20px;
+	height:100%;
+}
+#footer {
+    visibility:hidden;
+}
+
+h2 {
+  float: down;
+  clear: both;
+  position: relative;
+  top: 35;
+  color: 003300;
+  font-family:"Arial";
+  margin-left:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+ 
+ }
+#Details{
+width:380px;
+height:120px;
+border-right-style:solid;
+border-right-color:003300;
+border-right-width:3px;
+}
+
+#ret_options{
+border-style: ridge;
+border-color:003300;
+border-width:20px;
+height:1530px;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+#ret_options input{
+   border-top: 1px solid 003300;
+   background: pink;
+   background: -webkit-gradient(linear, left top, left bottom, from(003300), to(009966));
+   background: -webkit-linear-gradient(top, 003300, 009966);
+   background: -moz-linear-gradient(top, 003300, 009966);
+   background: -ms-linear-gradient(top, 003300, 009966);
+   background: -o-linear-gradient(top, 003300, 009966);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   box-shadow: rgba(0,0,0,5) 0 1px 0;
+   text-shadow: rgba(0,0,0,.5) 0 1px 0;
+   color: black;
+   font-weight:bold;
+}
+
+#Info img{
+ border-style:groove;
+ border-width:6px;
+ border-color:003300;
+ top: 110px;
+ right: -700px;
+ margin-left:20px;
+ width:150px;
+ height:150px;
+ }
+ 
+#options img{
+	visibility:"hidden";
+}
+
+li{
+list-style-type:none;
+}
+
+#Pdetails{
+ position: relative;
+ right: -700px;
+ top: -120px; 
+ font-size:20px;
+ font-family: "Comics Sans";
+ }
+ 
+#Pdetails li a{
+color:003300;
+}
+#Pdetails li small{
+color:003300;
+font-weight:bold;
+font-size:20px;
+}
+
+#Edu{
+width:380px;
+height:120px;
+border-right-style:solid;
+border-right-color:003300;
+border-right-width:3px;
+}
+#Education p{
+position: relative;
+right: -700px;
+top: -120px;
+font-size: 20px;
+font-family: "Comics Sans";
+}
+#Education p small{
+color:003300;
+font-weight:bold;
+font-size:20px;
+}
+#Tech {
+width:380px;
+height:120px;
+border-right-style:solid;
+border-right-color:003300;
+border-right-width:3px;
+}
+
+#Technical li{
+position: relative;
+right: -700px;
+top: -120px;
+font-size: 20px;
+font-family: "Comics Sans";
+}
+#Technical li small{
+color:003300;
+font-size: 20px;
+font-weight:bold;
+}
+
+#Exp{
+width:380px;
+height:120px;
+border-right-style:solid;
+border-right-color:003300;
+border-right-width:3px;
+}
+
+#Experience p{
+position: relative;
+right: -700px;
+top: -130px;
+font-size: 20px;
+font-family: "Comics Sans";
+}
+#Experience p small{
+color:003300;
+font-size: 20px;
+font-weight:bold;
+}
+#Know{
+width:380px;
+height:120px;
+border-right-style:solid;
+border-right-color:003300;
+border-right-width:3px;
+}
+
+#Knowledge li{
+position: relative;
+right: -700px;
+top: -100px;
+font-size: 20px;
+font-family: "Comics Sans";
+}
+#Knowledge li small{
+color:003300;
+font-size: 20px;
+font-weight:bold;
+
+}
+
+#Ref{
+width:380px;
+height:120px;
+border-right-style:solid;
+border-right-color:003300;
+border-right-width:3px;
+}
+
+#References p{
+position: relative;
+right: -700px;
+top: -90px;
+font-size: 20px;
+font-family: "Comics Sans";
+}
+#References p small{
+color:003300;
+font-size: 20px;
+font-weight:bold;
+}
+
+  
+  

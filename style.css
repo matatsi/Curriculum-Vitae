@@ -1,0 +1,70 @@
+#ret_options {
+	display: none;
+}
+#f_options{
+display:none;
+}
+#e_options{
+	display:none;
+
+}
+h1 {
+	color: black;
+	font-family:"Arial";
+	text-align: center;
+    clear:both;
+    margin-top:90px;
+	font-weight:bold;
+}
+
+h1:first-letter{
+	vertical-align:-5px;
+	font-family:"Sans Serif";
+	font-size:80px;
+	color:pink;
+}
+#options input{
+   border-top: 1px solid pink;
+   background: pink;
+   background: -webkit-gradient(linear, left top, left bottom, from(pink), to(#FF3399));
+   background: -webkit-linear-gradient(top, pink, #FF3399);
+   background: -moz-linear-gradient(top, pink, #FF3399);
+   background: -ms-linear-gradient(top, pink, #FF3399);
+   background: -o-linear-gradient(top, pink, #FF3399);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,5) 0 1px 0;
+   box-shadow: rgba(0,0,0,5) 0 1px 0;
+   text-shadow: rgba(0,0,0,.5) 0 1px 0;
+   color: black;
+   font-weight:bold;
+}
+#options p{
+	color: black;
+	font-family:"Arial";
+	font-family:"italics";
+	font-size:20px;
+	text-align: center;
+    clear:both;
+}
+
+#options{
+	color: black;
+	font-family:"Arial";
+	text-align: center;
+    clear:both;
+	border-style: ridge;
+	border-color:pink;
+	border-width:20px;
+	height:100%;
+}
+#footer{
+color:black;
+text-align:center;
+}
+#footer name{
+color:pink;
+}
